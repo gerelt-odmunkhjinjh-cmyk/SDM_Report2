@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def calc(A, B):
-    
+   
     if not isinstance(A, int) or not isinstance(B, int):
         return -1
 
@@ -32,3 +32,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
